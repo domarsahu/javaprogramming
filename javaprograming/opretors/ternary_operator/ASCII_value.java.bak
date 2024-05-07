@@ -1,0 +1,13 @@
+/* WAJP to check weather than give character ASCII value is Equal to char
+   'A' or Not. */
+
+class  ASCII_value
+{
+	public static void main(String[] args) 
+	{
+		int a = 'A';
+
+		String res = (a == 65 ? "Equal to ": "Not Equal to");
+		System.out.println(res);
+	}
+}

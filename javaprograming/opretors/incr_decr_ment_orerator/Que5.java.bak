@@ -1,0 +1,10 @@
+// WAJP to  giving  a = 5, b = 7, c = 8 to preform operation ++c / a++ + --b
+
+
+class Que5
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("Hello World!");
+	}
+}

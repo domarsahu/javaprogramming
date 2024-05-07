@@ -1,0 +1,12 @@
+// WAJP to  giving   b = 7, c = 8 to preform operation --b * ++c 
+
+
+class Que2
+{
+	public static void main(String[] args) 
+	{
+		int b = 7, c = 8;
+		int res = --b * ++c
+		System.out.println("Hello World!");
+	}
+}

@@ -1,0 +1,11 @@
+/* WAJP to create three char variable and check var1 is Equal  
+   to var2 and var3 print boolean */
+
+
+class ThreeChar
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("Hello World!");
+	}
+}

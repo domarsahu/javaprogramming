@@ -1,0 +1,9 @@
+class NameDetail
+{
+public static void main(String[] args)
+{
+ System.out.println("Domar Sahu");
+ System.out.println(22);
+
+}
+}

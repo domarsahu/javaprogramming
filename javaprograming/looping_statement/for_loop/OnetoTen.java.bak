@@ -1,0 +1,9 @@
+// WAJP one to ten 
+
+class OnetoTen
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("Hello World!");
+	}
+}

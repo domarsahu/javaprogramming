@@ -1,0 +1,18 @@
+// WAJP to check ASCII value of character 'D' is grater than 20 or Not.
+
+class  ASCII
+{
+	public static void main(String[] args) 
+	{
+		char a = 'D';
+		if (a > 20)
+		{
+           System.out.println(a + " is greater than");
+		}
+		else 
+        {
+			System.out.println(a + " is Not greter than ");
+        }
+		
+	}
+}

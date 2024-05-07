@@ -1,0 +1,52 @@
+import java.util.*;
+
+class Calcu 
+{
+	public static void main(String[] args) 
+	{
+		Scanner ss = new Scanner(System.in);
+
+		System.out.println("which operation you want to perform :");
+		System.out.println(" 1. Additon\n 2. Subtration\n 3. Multipcation\n 4. Divsion");
+		int a = ss.nextInt();
+		
+
+		if (a==1)
+		{
+			System.out.println("Enter a Number");
+			int a1 = ss.nextInt();
+			System.out.println("Enter b Number");
+			int b1 = ss.nextInt();
+			System.out.println("addiation of a + b = " +(a1 + b1));
+
+		}
+
+		if (a==2)
+		{
+			System.out.println("Enter a Number");
+			int a1 = ss.nextInt();
+			System.out.println("Enter b Number");
+			int b1 = ss.nextInt();
+			System.out.println("Subtration of a - b = " +(a1 - b1));
+        }
+
+		if(a==3)
+		{
+			System.out.println("Enter a Number");
+			int a1 = ss.nextInt();
+			System.out.println("Enter b Number");
+			int b1 = ss.nextInt();
+			System.out.println("Multiplation of a x b = " +(a1 * b1));
+		}
+
+        if(a==4)
+		{
+			System.out.print("Enter a Number for dividand : ");
+			int a1 = ss.nextInt();
+			System.out.print("Enter b Number for divisor : ");
+			int b1 = ss.nextInt();
+			System.out.println("division of a / b = " +(a1 / b1));
+		}
+		
+	}
+}

@@ -1,0 +1,55 @@
+// WAJP to println prefect no from 1 to 100
+
+//import java.util.Scanner;
+class PrefectNo 
+{
+	public static void main(String[] args) 
+	{
+       for (int num = 1; num<=100;num++)
+		{
+		    int sum = 0;
+            
+			for(int i =1; i<num; i++)
+		   {
+			if (num%i == 0)
+			{
+				sum = sum+ i;
+			}
+		}
+		if (num == sum)
+		{
+			System.out.println(num+ "is prefect number");
+		}
+		
+		
+		}
+
+	}
+}
+
+/*  ###   my logic 
+	
+	    Scanner sc = new Scanner(System.in);
+		System.out.println("Enter the number");
+		int num = sc.nextInt();
+      
+		int sum = 0;
+        for (int i = 1;num<=100 ;i ++ )
+		{
+			if (num%i == 0)
+			{
+				sum = sum+ i;
+				System.out.println("Factor of "+num+ " is : " +i);
+			}
+		}
+		if (num == sum)
+		{
+			System.out.println(num+ "is prefect number");
+		}
+		else{
+			System.out.println( num+" is not prefect number" );    
+		}
+ 
+		*/
+		
+

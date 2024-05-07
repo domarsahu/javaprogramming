@@ -1,0 +1,18 @@
+// WAJP to cheak weather the given number is equal to 0  or not
+
+class ZeroEqualNot
+{
+	public static void main(String[] args) 
+	{
+		int a = 9;
+		if(a % 5 == 0)
+        {
+           System.out.println(a + " Divisable by 5 ");
+		}
+		else
+		{
+		   System.out.println(a + " Not Divisable by 5 ");	
+		}
+
+	}
+}

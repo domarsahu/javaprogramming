@@ -1,0 +1,38 @@
+/* WAJP to check 100 - 90 A, 75-89 B, 65-74 C, 50-64 D, 35-49 E: any other number or
+   marks display "FAIL" */
+
+import java.util.Scanner;
+class MarksDisplay 
+{
+	public static void main(String[] args) 
+	{
+		Scanner ss = new Scanner(System.in);
+		System.out.println("Enter Marks");
+        int m = ss.nextInt();
+
+		if(100 > m && 90 < m)
+		{
+			System.out.println("Given Grade is :  A ");
+		}
+		else if (89 > m && 75<m)
+		{
+        	System.out.println("Given Grade is :  B ");
+
+		}
+		else if (74 > m && 65<m )
+		{
+		 	System.out.println("Given Grade is :  C ");
+
+		}
+		else if (64>m && 50 < m)
+		{
+			System.out.println("Given Grade is :  D ");
+
+		}
+		else if (49 > m && 35 < m)
+		{
+			System.out.println("Given Grade is :  E ");
+
+		}
+	}
+}

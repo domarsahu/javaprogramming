@@ -1,0 +1,22 @@
+// WAJP to check the given number is Divisible by 3 and 7
+
+import java.util.Scanner;
+class Divisible 
+{
+	public static void main(String[] args) 
+	{
+		Scanner ss = new Scanner(System.in);
+		System.out.print("Enter a number :  ");
+		int a =ss.nextInt();
+		if (a % 3 == 0 && a % 7 == 0)
+		{
+		  System.out.println(a + " : Number is divisible by 3 and 7 ");
+  
+		}
+		else
+		{
+		  System.out.println(a + " : Number is not divisible by 3 and 7 ");
+
+		}
+	}
+}

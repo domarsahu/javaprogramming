@@ -1,0 +1,15 @@
+// WAJP to cheak the voting Eligibility
+
+class Voting 
+{
+	public static void main(String[] args) 
+	{
+		int age = 20;
+
+        String res = (age >18 ? "eligiable for voting" :
+			                     "Not eligiable for voting1");
+		
+		System.out.println(res);
+
+	}
+}

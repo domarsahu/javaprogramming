@@ -1,0 +1,24 @@
+// WAJP to check the eligibilty of voting using switch
+
+import java.util.Scanner;
+class Eligible 
+{
+	public static void main(String[] args) 
+	{
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter a age for voting : ");
+		int age = sc.nextInt();
+	    
+		int voting = (age >=18 ? 1 : 0);
+		switch (voting)
+		{
+		case 1:
+			System.out.println(age+ " is Eligible for voting");
+		break;
+		case 0:
+			System.out.println(age+ " is  Not Eligible for voting");
+		break;
+		
+		}
+	}
+}

@@ -1,0 +1,9 @@
+/* WAJP to cheak weather than given number is Equal to Zero or Not*/
+
+class EqualZero 
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("Hello World!");
+	}
+}

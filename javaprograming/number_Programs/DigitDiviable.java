@@ -1,0 +1,29 @@
+// WAJP to cheak all the digits are diviable by 2 and 4 or not in the given number
+
+
+import java.util.Scanner;
+class DigitDiviable
+{
+	public static void main(String[] args) 
+	{
+		Scanner sc = new Scanner(System.in);
+		int num = sc.nextInt();
+		int rem = 0;
+		int dig = 0;
+		while(num != 0){
+			rem = num%10;
+			dig = dig + rem;
+
+			if(dig % 2==0 && dig % 4 ==0)
+				{
+				System.out.print("Your number which is divisible by 2 and 4: " + dig + " ");
+				System.out.println();
+		
+			}
+			else{
+				System.out.println("not Diviable by 2 and 4");
+			}
+			num =num/10;
+		}	
+	}
+}
